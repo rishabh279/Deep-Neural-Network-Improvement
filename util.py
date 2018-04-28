@@ -56,7 +56,7 @@ def plotCumulativeVariance(pca):
   return P
 
 def getTransformedData():
-  df=pd.read_csv('E:/RS/ML/Machine learning tuts/Target/Part2(Deep Learning)/DeepLearning-Part2/train.csv')
+  df=pd.read_csv('')
   data=df.as_matrix().astype(np.float32)
   np.random.shuffle(data)
   X=data[:,1:]
@@ -70,7 +70,7 @@ def getTransformedData():
   return Z,Y,pca,mu
 
 def getNormalizedData():
-  df=pd.read_csv('E:/RS/ML/Machine learning tuts/Target/Part2(Deep Learning)/DeepLearning-Part2/train.csv')
+  df=pd.read_csv('')
   data=df.as_matrix().astype(np.float32)
   np.random.shuffle(data)  
   X=data[:,1:]
